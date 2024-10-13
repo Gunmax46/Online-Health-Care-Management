@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover; /* Make sure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background stay fixed when scrolling */
+}
+
+header {
+    background-color: #408080;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #408080;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #408080;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #808080;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Make sure the page takes the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Flexbox layout for body to push footer to the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+}
+
+/* Main content area grows to fill the space */
+main {
+    flex-grow: 1; /* Ensures this section grows to fill available space */
+    padding: 20px;
+    
+}
+
+/* Footer styling, pushed to the bottom */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+/* Add background wallpaper to body */
+body {
+    background-image: url('background.jpg'); /* Add your image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+

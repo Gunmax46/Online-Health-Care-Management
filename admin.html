@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - HealthCare Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="student.html">Student</a></li>
+                 <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Add New Wellness Resource</h2>
+            <form id="add-resource-form">
+                <label for="resource-name">Resource Name:</label>
+                <input type="text" id="resource-name" name="resource-name" required>
+
+                <label for="resource-type">Type (e.g., Mental Health, Physical Health):</label>
+                <input type="text" id="resource-type" name="resource-type" required>
+
+                <label for="resource-description">Description:</label>
+                <textarea id="resource-description" name="resource-description" required></textarea>
+
+                <button type="submit">Add Resource</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Existing Resources</h2>
+            <ul id="resource-list">
+                <!-- Resources added will be displayed here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HealthCare Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

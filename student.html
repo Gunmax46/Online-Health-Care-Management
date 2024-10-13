@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student - HealthCare Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="student.html">Student</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Search Wellness Resources</h2>
+            <form id="search-form">
+                <label for="search-query">Search by Type (e.g., Mental Health):</label>
+                <input type="text" id="search-query" name="search-query" required>
+                <button type="submit">Search</button>
+            </form>
+
+            <h3>Available Resources:</h3>
+            <ul id="search-results">
+                <!-- Search results will be displayed here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HealthCare Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
